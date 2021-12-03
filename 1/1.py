@@ -31,10 +31,10 @@ def prepareWindowSum(arr: List[int], windowSize: int) -> List[int]:
 def main():
     # day 1 part 1
     print('* day 1 part 1')
-    print(getIncreases(getData()))
+    print(f'- Answer: {getIncreases(getData())}')
     # day 1 part 2
     print('* day 1 part 2')
-    print(getIncreases(prepareWindowSum(getData(), 3)))
+    print(f'- Answer {getIncreases(prepareWindowSum(getData(), 3))}')
 
 
 if __name__ == "__main__":

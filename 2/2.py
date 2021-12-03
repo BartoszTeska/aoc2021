@@ -80,14 +80,14 @@ def main():
     for move in movement:
         submarine.move(move[0], move[1])
     print('* day 2 part 1')
-    print(submarine.result())
+    print(f'- Answer: {submarine.result()}')
 
     # day2 part2
     submarine = ImprovedSubmarine()
     for move in movement:
         submarine.move(move[0], move[1])
     print('* day 2 part 2')
-    print(submarine.result())
+    print(f'- Answer: {submarine.result()}')
 
 
 if __name__ == '__main__':

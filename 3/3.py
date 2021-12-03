@@ -86,11 +86,15 @@ def main():
     gamma = getGamma(data)
     epsilon = getEpsilon(data)
     print('* day 3 part 1')
-    print(gamma, epsilon, epsilon*gamma)
+    print(f'- Gamma rate: {gamma}')
+    print(f'- Epsilon rate: {epsilon}')
+    print(f'- Power consumption: {gamma*epsilon}')
     print('*day 3 part 2')
     oxygen = getOxygenGeneratorRating(data)
     co2 = getCO2ScrubberRating(data)
-    print(oxygen, co2, oxygen*co2)
+    print(f'- Oxygen generator rating: {oxygen}')
+    print(f'- CO2 scrubber rating: {co2}')
+    print(f'- Life support rating: {oxygen*co2}')
 
 
 if __name__ == '__main__':
